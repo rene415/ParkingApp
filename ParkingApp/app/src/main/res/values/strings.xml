@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">ParkingApp</string>
+    <string name="app_name">MySpot</string>
     <string name="title_activity_spotter_location">Map</string>
+    <string name="title_activity_driver_location">Map</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

@@ -12,13 +12,13 @@ public class DriverSpotterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_spotter);
-        mDriver = (Button) findViewById(R.id.login);
-        mSpotter = (Button) findViewById(R.id.register);
+        mDriver = (Button) findViewById(R.id.driver);
+        mSpotter = (Button) findViewById(R.id.spotter);
 
         mDriver.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(DriverSpotterActivity.this, .class);
+                Intent intent = new Intent(DriverSpotterActivity.this, DriverLocationActivity.class);
                 startActivity(intent);
                 finish();
                 return;
@@ -28,7 +28,7 @@ public class DriverSpotterActivity extends AppCompatActivity {
         mSpotter.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(DriverSpotterActivity.this, .class);
+                Intent intent = new Intent(DriverSpotterActivity.this, SpotterLocationActivity.class);
                 startActivity(intent);
                 finish();
                 return;
